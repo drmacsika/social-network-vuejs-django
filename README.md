@@ -1,6 +1,7 @@
 A full working social media application built with Python 3, Django 3 and Vue.js 3.
 
 It currently has the following features:
+
 - User Authentication
 - Posts (Edit posts, delete posts)
 - Ability to share or repost another user's post like it's done on linkedin and quora.
@@ -13,5 +14,19 @@ It currently has the following features:
 - Ability to Search
 - Notifications for posts, comments, and following
 - Upload images to posts
-- Upload multiple images to posts
+- Instagram Style Photo Album: Upload multiple images to posts.
 - Sending and receiving DMs.
+
+Environment Setup
+
+- python3 -m venv venv
+- source venv/bin/activate
+- cd src
+- pip install -r requirements.py
+
+Project Setup
+
+python manage.py makemigrations
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py runserver
