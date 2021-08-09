@@ -1,6 +1,5 @@
-A full working social media application built with Python 3, Django 3 and Vue.js 3.
-
-It currently has the following features:
+# A full working social media application built with Python 3, Django 3 and Vue.js 3.
+## Features
 
 - User Authentication
 - Posts (Edit posts, delete posts)
@@ -17,14 +16,14 @@ It currently has the following features:
 - Instagram Style Photo Album: Upload multiple images to posts.
 - Sending and receiving DMs.
 
-Environment Setup
+## Environment Setup
 
 - python3 -m venv venv
 - source venv/bin/activate
 - cd src
 - pip install -r requirements.py
 
-Project Setup
+## Project Setup
 
 python manage.py makemigrations
 python manage.py migrate
