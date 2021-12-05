@@ -29,3 +29,8 @@
 - python manage.py migrate
 - python manage.py createsuperuser
 - python manage.py runserver
+
+## Contact Info
+
+If you have any question or want to reach me directly, 
+[Contact Nsikak Imoh](https://nsikakimoh.com).
